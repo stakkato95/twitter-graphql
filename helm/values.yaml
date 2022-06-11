@@ -1,0 +1,14 @@
+image:
+  repository: stakkato95/twitter-service-graphql
+  pullPolicy: Always
+  tag: "latest"
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true

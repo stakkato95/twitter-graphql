@@ -1,0 +1,31 @@
+mutation {
+  createUser(input: {username: "user1", password: "pass"})
+}
+
+mutation {
+  login(input: {username: "user1", password: "pass"})
+}
+
+mutation {
+  createTweet(input: {userId: 1, text: "new tweet"}) {
+    id
+    userId
+    text
+  }
+}
+
+{
+  tweets {
+    id
+    userId
+    text
+  }
+}
+
+mutation {
+  subscribe(input: {to: 1})
+}
+
+{
+  "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTQ3MTA5NzgsInVzZXJuYW1lIjoidXNlcjEifQ.bIGKqZbs2n0wMySmESKOBoTDgIOgdubey9aznfyXp9Y"
+}

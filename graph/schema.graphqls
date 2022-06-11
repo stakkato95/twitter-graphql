@@ -1,0 +1,37 @@
+type Tweet {
+  id: Int!
+  userId: Int!
+  text: String!
+}
+
+type Query {
+  tweets: [Tweet!]!
+}
+
+input NewUser {
+  username: String!
+  password: String!
+}
+
+input Login {
+  username: String!
+  password: String!
+}
+
+input NewTweet {
+  text: String!
+}
+
+input NewSubscription {
+  to: Int!
+}
+
+type Mutation {
+  createUser(input: NewUser!): String!
+
+  login(input: Login!): String!
+
+  createTweet(input: NewTweet!): Tweet!
+
+  subscribe(input: NewSubscription!): String!
+}
