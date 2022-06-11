@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  twitter-graphql:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-06-11T16:58:12.573924717Z"
+    description: A Helm chart for twitter graphql service
+    digest: 56db732f59311c7d76f11f309bbc5f36cdc9cb0a11c5fd05c33c7e80b4ce122c
+    home: https://github.com/stakkato95/service-engineering-simple-twitter
+    maintainers:
+    - email: stakkato95@gmail.com
+      name: Artsiom Kaliaha
+    name: twitter-graphql
+    type: application
+    urls:
+    - https://github.com/stakkato95/twitter-graphql/releases/download/twitter-graphql-0.1.1/twitter-graphql-0.1.1.tgz
+    version: 0.1.1
   twitter-service-graphql:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -15,4 +30,4 @@ entries:
     urls:
     - https://github.com/stakkato95/twitter-graphql/releases/download/twitter-service-graphql-0.1.0/twitter-service-graphql-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-11T14:30:37.96545077Z"
+generated: "2022-06-11T16:58:12.573929417Z"
