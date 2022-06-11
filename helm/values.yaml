@@ -1,7 +1,7 @@
 image:
   repository: stakkato95/twitter-service-graphql
   pullPolicy: Always
-  tag: "latest"
+  tag: "0.1.0"
 
 nameOverride: ""
 fullnameOverride: ""
