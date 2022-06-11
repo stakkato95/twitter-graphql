@@ -1,5 +1,5 @@
 apiVersion: v2
-name: twitter-service-graphql
+name: twitter-graphql
 description: A Helm chart for twitter graphql service
 
 home: https://github.com/stakkato95/service-engineering-simple-twitter
@@ -10,8 +10,5 @@ maintainers:
 
 type: application
 
-# Chart version. Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.0
-
-# Application version
+version: 0.1.1
 appVersion: "0.1.0"
